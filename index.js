@@ -5,7 +5,6 @@ const mailer=require('nodemailer')
 const fs=require('fs')
 app.listen(4002,(req,res)=>{
     console.log('App running on port 5000')
-
 })
 app.get('/',(req,res)=>{
     res.status(200).json({message:'Hello world'});
