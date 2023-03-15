@@ -1,3 +1,4 @@
+//Author: Abdilkadir Mohammed abmo475@gmail.com
 const express=require('express');
 const app=express();
 const mailer=require('nodemailer')
@@ -34,4 +35,4 @@ transporter.sendMail(mailoption,(err,success)=>{
         console.log('message sent')
     }
 })
- 
+ //the end 
